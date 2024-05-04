@@ -41,7 +41,8 @@ The required libraries are:
 
 ## 2 Usage
 ### 2.1 Training ZeroDDI
-python main.py --config configs/zeroddi.py
+`python main.py --config configs/zeroddi.py
+`
 
 ### 2.2 Testing ZeroDDI
 After training, the parameters of models are saved in ./work_dirs/
