@@ -41,8 +41,14 @@ The required libraries are:
 
 ## 2 Usage
 ### 2.1 Training ZeroDDI
+There are three folds in /data/DrugBank5.1.9/ 
+For example, the data of fold2 is in zsl2/ and gzsl2/
+
 `python main.py --config configs/zeroddi.py
 `
+or `python main.py --config configs/zeroddi_fold2.py
+`
+You can also create our own config python file for different datasets or models.
 
 ### 2.2 Testing ZeroDDI
 After training, the parameters of models are saved in ./work_dirs/
