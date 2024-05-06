@@ -29,7 +29,7 @@ The required libraries are:
 
 - networkx
 
-- transformers>4.26
+- transformers>=4.26
 
 - matplotlib
 
