@@ -7,37 +7,37 @@ create a conda virtual env:
 
 The required libraries are:
 
-- numpy
+numpy
 
-- torch 1.11.0+cu113
+torch 1.11.0+cu113
 
-- addict
+addict
 
-- yapf
+yapf
 
-- sklearn
+sklearn
 
-- pandas
+pandas
 
-- torch_geometric 2.1.0
+torch_geometric 2.1.0
 
-- rdkit
+rdkit
 
-- tensorflow
+tensorflow
 
-- deepchem
+deepchem
 
-- networkx
+networkx
 
-- transformers>=4.26
+transformers>=4.26
 
-- matplotlib
+matplotlib
 
-- sacremoses
+sacremoses
 
-- bs4
+bs4
 
-- lxml
+lxml
 
 ## 2 Usage
 ### 2.1 Training ZeroDDI
