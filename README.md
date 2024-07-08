@@ -1,6 +1,10 @@
 # ZeroDDI
 ZeroDDI: A Zero-Shot Drug-Drug Interaction Event Prediction Method with Semantic Enhanced Learning and Dual-Modal Uniform Alignment
 
+Accepted by IJCAI2024
+
+The authors are Ziyan Wang, Zhankun Xiong, Feng Huang, Xuan Liu, Wen Zhang.
+
 ## 1 install 
 create a conda virtual env:
 `conda create -n name python=3.8`
