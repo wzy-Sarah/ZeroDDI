@@ -64,6 +64,8 @@ or `python main.py --config configs/zeroddi_fold2.py
 
 You can also create our own config python file for different datasets or models.
 
+If you get the problem: OSError: \[Errno 101] Network is unreachable when you run the model, you can try running it a few more times.
+
 ### 2.4 Testing ZeroDDI
 After training, the parameters of models are saved in ./work_dirs/
 
