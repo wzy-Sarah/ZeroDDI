@@ -48,7 +48,8 @@ lxml
 Due to space limitations, we compressed the dataset. You can unzip all xxx.zip data in its fold.
 
 ### 2.2 checkpoints
-Download the biobert checkpoints from the huggingface [biobert](https://huggingface.co/dmis-lab/biobert-base-cased-v1.2/tree/main)
+Download the biobert checkpoints from the huggingface [
+biobert-base-cased-v1.2/](https://huggingface.co/dmis-lab/biobert-base-cased-v1.2/tree/main)
 And put it to data/
 
 ### 2.3 Training ZeroDDI
