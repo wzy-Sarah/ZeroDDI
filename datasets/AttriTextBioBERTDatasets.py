@@ -96,8 +96,8 @@ class AttriTextBioBERTDataset(Dataset):
             mesh = MeshText(self.Meshids)
             mesh_text = mesh.get_text()
 
-            tokenizer = AutoTokenizer.from_pretrained(f"dmis-lab/{self.bert_vision}")
-            model = AutoModel.from_pretrained(f"dmis-lab/{self.bert_vision}")
+            tokenizer = AutoTokenizer.from_pretrained(f"data/{self.bert_vision}") #f"dmis-lab/{self.bert_vision}"
+            model = AutoModel.from_pretrained(f"data/{self.bert_vision}")
             inputs = tokenizer(mesh_text, return_tensors="pt", padding=True)
             outputs = model(**inputs)
             mesh_text_biobertemb = outputs.last_hidden_state
@@ -113,8 +113,8 @@ class AttriTextBioBERTDataset(Dataset):
 
 
         if not os.path.exists(biobertembfile):
-            tokenizer = AutoTokenizer.from_pretrained(f"dmis-lab/{self.bert_vision}")
-            model = AutoModel.from_pretrained(f"dmis-lab/{self.bert_vision}")
+            tokenizer = AutoTokenizer.from_pretrained(f"data/{self.bert_vision}")
+            model = AutoModel.from_pretrained(f"data/{self.bert_vision}")
             inputs = tokenizer(self.all_descriptions, return_tensors="pt", padding=True)
             outputs = model(**inputs)
             biobertemb = outputs.last_hidden_state
