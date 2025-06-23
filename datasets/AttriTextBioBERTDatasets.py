@@ -87,7 +87,10 @@ class AttriTextBioBERTDataset(Dataset):
                 self.eventid.append(id)
         assert len(self.eventid) == len(self.all_descriptions)
         print(f"The {self.Allfilename} dataset has {len(self.all_descriptions)} descriptions")
-
+        if not os.path.exists(self.output_file):
+            os.makedirs(self.output_file)
+        else:
+            print(f"the file'{self.output_file}' exsit")
         file = os.path.join(self.output_file, f"{self.bert_vision}_mesh_text_embedding.pt")
         if os.path.exists(file):
             mesh_text_biobertemb = torch.load(file)
