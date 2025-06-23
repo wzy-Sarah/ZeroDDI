@@ -47,7 +47,11 @@ lxml
 ### 2.1 dataset
 Due to space limitations, we compressed the dataset. You can unzip all xxx.zip data in its fold.
 
-### 2.2 Training ZeroDDI
+### 2.2 checkpoints
+Download the biobert checkpoints from the huggingface [biobert](https://huggingface.co/dmis-lab/biobert-base-cased-v1.2/tree/main)
+And put it to data/
+
+### 2.3 Training ZeroDDI
 There are three folds in /data/DrugBank5.1.9/ 
 
 For example, the data of fold2 is in zsl2/ and gzsl2/
@@ -59,7 +63,7 @@ or `python main.py --config configs/zeroddi_fold2.py
 
 You can also create our own config python file for different datasets or models.
 
-### 2.3 Testing ZeroDDI
+### 2.4 Testing ZeroDDI
 After training, the parameters of models are saved in ./work_dirs/
 
 Then, you can test the model by:
