@@ -71,5 +71,12 @@ Then, you can test the model by:
 
 `python main.py --config configs/zeroddi.py --zsl_para work_dirs/zeroddi/model_parameter/zsl_model_best_epoch100_seed42.pkl --gzsl_para work_dirs/zeroddi/model_parameter/gzsl_model_best_epoch100_seed42.pkl `
 
-
+### 2.5 Cite Us
+@inproceedings{wang2024zeroddi,
+  title={ZeroDDI: a zero-shot drug-drug interaction event prediction method with semantic enhanced learning and dual-modal uniform alignment},
+  author={Wang, Ziyan and Xiong, Zhankun and Huang, Feng and Liu, Xuan and Zhang, Wen},
+  booktitle={Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence},
+  pages={6071--6079},
+  year={2024}
+}
 
