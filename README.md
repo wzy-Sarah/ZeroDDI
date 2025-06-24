@@ -47,6 +47,18 @@ lxml
 ### 2.1 dataset
 Due to space limitations, we compressed the dataset. You can unzip all xxx.zip data in its fold.
 
+`cd data/DrugBank5.1.9/`
+
+`unzip DDI_final.zip -d .`
+
+`cd zsl`
+
+`unzip train.zip -d .`
+
+`cd gzsl`
+
+`unzip train.zip -d .`
+
 ### 2.2 checkpoints
 Download the biobert checkpoints from the huggingface [
 biobert-base-cased-v1.2/](https://huggingface.co/dmis-lab/biobert-base-cased-v1.2/tree/main)
