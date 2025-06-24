@@ -7,9 +7,9 @@ The authors are Ziyan Wang, Zhankun Xiong, Feng Huang, Xuan Liu, Wen Zhang.
 
 ## 1 install 
 create a conda virtual env:
-`conda create -n name python=3.8`
+`conda env create -f environment.yaml`
 
-pip install the required libraries:
+Required libraries are:
 
 numpy
 
