@@ -3,6 +3,8 @@ ZeroDDI: A Zero-Shot Drug-Drug Interaction Event Prediction Method with Semantic
 
 Accepted by IJCAI2024
 
+The paper can be found in https://arxiv.org/pdf/2407.00891
+
 The authors are Ziyan Wang, Zhankun Xiong, Feng Huang, Xuan Liu, Wen Zhang.
 
 ## 1 install 
@@ -85,7 +87,7 @@ Then, you can test the model by:
 `python main.py --config configs/zeroddi.py --zsl_para work_dirs/zeroddi/model_parameter/zsl_model_best_epoch100_seed42.pkl --gzsl_para work_dirs/zeroddi/model_parameter/gzsl_model_best_epoch100_seed42.pkl `
 
 ### 2.5 Cite Us
-The paper can be found in [here](https://arxiv.org/pdf/2507.19011)
+The paper can be found in [here](https://arxiv.org/pdf/2407.00891)
 
 ```bibtex
 @inproceedings{wang2024zeroddi,
